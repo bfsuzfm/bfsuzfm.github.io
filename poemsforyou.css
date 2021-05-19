@@ -1,0 +1,102 @@
+h1 {
+    color: azure; text-align: center; font-size: 60px;
+     letter-spacing: 20px;
+}
+h2{
+    color: bisque;font-size: 20px; text-align: center;
+    letter-spacing: 3px;
+}
+.header {
+    background-color:#234b7e;
+    background-image: url("images/background\ p4.JPG");
+    background-repeat: no-repeat;
+    padding: 60px;
+    text-align: center;
+    background-size: cover;
+    background-position：right top;
+  }
+p{
+    color: rgb(253, 250, 245);
+    margin-right: 70px;
+    margin-left: 70px;
+    line-height: 2;
+    align-self: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(39, 35, 87, 0.89);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color：rgba(240, 255, 243, 0.87);
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: azure;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
